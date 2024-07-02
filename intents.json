@@ -1,0 +1,132 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Yo",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello, Welcome to STQC website. How can I help you?",
+        "Hi, Welcome to STQC website. How can I help you?",
+        "Hello, Welcome to STQC website. What can I do for you?",
+        "Hi, Welcome to STQC website. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "certification",
+      "patterns": [
+        "I need details on stqc certification",
+        "Tell me about the stqc certification",
+        "Can you provide information about stqc certification",
+        "certification from stqc",
+        "certificate from stqc",
+        "certification at stqc",
+        "certificate",
+        "certification"
+      ],
+      "responses": [
+        "Hello! I'm here to assist you with information about STQC Certification Services.\n\nSince 1991, STQC Certification Services has been leading the way as the first Third Party Certification Agency of Indian origin. Starting with QMS certification, STQC has now expanded to offer various certifications including:\n\nISO 27001 Information Security Management System (ISMS) Certification: For top-notch information security.\nWebsite Quality Certification: To ensure high standards for websites.\nCommon Criteria Certification: The international standard for computer security.\nSmart Card Testing and Certification: Certifying smart cards to meet required standards.\nBiometric Devices Testing and Certification: Ensuring the quality and security of biometric devices.\nPOS / Mobile Terminal / Micro ATM Biometric Devices Certification: Certification for payment and transaction devices.\nSoftware and System Certification: For compliance with national and international standards.\nSTQC caters to the needs of industries and organizations, helping them align with both national and international standards.",
+        "Hello! I can help you with information about STQC Certification Services.\n\nSTQC Certification Services has been a pioneer in offering third-party certification in India since 1991. They started with QMS certification and have since expanded to provide a wide range of certifications.\n\nHere are some of the certifications STQC offers:\n\nISO 27001 Information Security Management System (ISMS) Certification: Ensures your information security management is up to standard.\nWebsite Quality Certification: Helps maintain high-quality standards for websites.\nCommon Criteria Certification: International standard for computer security certification.\nSmart Card Testing and Certification: Ensures smart cards meet required standards.\nBiometric Devices Testing and Certification: Validates the quality and security of biometric devices.\nPOS / Mobile Terminal / Micro ATM Biometric Devices Certification: Certification for payment and transaction devices.\nSoftware and System Certification: Ensures software and systems are compliant with national and international standards.\nSTQC provides these certifications to industries and organizations, helping them meet both national and international standards.",
+        "Hi there! Need information about STQC Certification Services? I'm here to help!\n\nSTQC Certification Services has been at the forefront since 1991, becoming the first Third Party Certification Agency in India. They began with QMS certification and now offer a broad range of certifications such as:\n\nISO 27001 Information Security Management System (ISMS) Certification: Ensures your information security management meets high standards.\nWebsite Quality Certification: Maintains quality standards for websites.\nCommon Criteria Certification: The global standard for computer security certification.\nSmart Card Testing and Certification: Verifies smart cards meet necessary standards.\nBiometric Devices Testing and Certification: Validates the security and quality of biometric devices.\nPOS / Mobile Terminal / Micro ATM Biometric Devices Certification: Certification for various transaction devices.\nSoftware and System Certification: Ensures software and systems comply with both national and international standards.\nSTQC provides these certifications to industries and organizations, helping them meet rigorous standards."
+      ]
+    },
+    {
+      "tag": "schemes",
+      "patterns": [
+        "Can you provide information about stqc certification schemes?",
+        "Can you provide an overview of the stqc certification schemes?",
+        "what is qms scheme?",
+        "what is isms scheme",
+        "what is s mark scheme"
+      ],
+      "responses": [
+        "STQC offers two main types of certification schemes:\n\nManagement System Certification Scheme: This includes ISO 27001 for Information Security Management Systems (ISMS) and ISO 9001 for Quality Management Systems (QMS), ensuring organizations meet high standards of information security and quality management.\n\nProduct Certification Schemes (S Mark): This covers a range of certifications for products, including Website Quality Certification, Common Criteria Certification, Smart Card Testing and Certification, Biometric Devices Testing and Certification, and more. These schemes ensure products meet national and international standards.\n\nWould you like to know more about any specific certification?",
+        "STQC provides comprehensive certification services under two categories:\n\nManagement System Certification Scheme: Focused on organizational systems, such as ISO 27001 for Information Security Management Systems (ISMS) and ISO 9001 for Quality Management Systems (QMS), to help maintain and improve information security and quality standards.\n\nProduct Certification Schemes (S Mark): Encompassing a variety of product certifications like Website Quality Certification, Smart Card Testing and Certification, Biometric Devices Testing and Certification, among others. These certifications ensure products adhere to rigorous quality and security standards.\n\nWhich specific scheme would you like more details on?",
+        "STQC's certification services are divided into two key areas:\n\nManagement System Certification Scheme: This includes ISO 27001 for Information Security Management Systems (ISMS) and ISO 9001 for Quality Management Systems (QMS), supporting organizations in managing and protecting their information assets and ensuring quality management practices.\n\nProduct Certification Schemes (S Mark): This category covers certifications for various products, including Website Quality, Smart Card, Biometric Devices, and more, ensuring compliance with national and international standards.\n\nWould you like to explore more about a particular certification scheme?"
+      ]
+    },
+    {
+      "tag": "managementSystemCertification",
+      "patterns": [
+        "Can you explain what Management System Certification is?",
+        "what is Management System Certification?",
+        "what is iso 9001",
+        "what is iso 27001?"
+      ],
+      "responses": [
+        "Management System Certification ensures that an organization’s processes meet specific standards for quality and information security. At STQC, we offer two main types of MSC:\n\nISO 9001 (QMS) Certification:\n\nISO 9001 is the international standard for Quality Management Systems (QMS). It helps organizations ensure that they meet customer and regulatory requirements and demonstrate continuous improvement.\n\nISO 27001 (ISMS) Certification:\n\nISO 27001 is the international standard for Information Security Management Systems (ISMS). It provides a framework for managing sensitive company information to ensure it remains secure.\nBy obtaining these certifications from STQC, organizations can enhance their operational efficiency, improve customer satisfaction, and ensure data security.",
+        "Management System Certification at STQC includes standards that help organizations streamline their processes and secure their information:\n\nISO 9001 (QMS) Certification:\n\nThis certification focuses on Quality Management Systems, ensuring that organizations consistently meet customer and regulatory demands while improving their overall quality and performance.\n\nISO 27001 (ISMS) Certification:\n\nThis certification emphasizes Information Security Management, helping organizations protect their information assets and manage risks related to data security.\nAchieving these certifications with STQC can boost your organization's credibility, operational performance, and security standards.",
+        "Management System Certification involves adhering to established international standards to enhance business processes and secure information. STQC provides certifications in:\n\nISO 9001 (QMS):\n\nA Quality Management System certification that ensures your processes meet high standards for quality, helping to improve customer satisfaction and operational efficiency.\n\nISO 27001 (ISMS):\n\nAn Information Security Management System certification that safeguards your organization's data and information assets, mitigating security risks and ensuring compliance with legal requirements.\nWith STQC’s Management System Certification, your organization can demonstrate a commitment to quality and security, improving trust and competitiveness in the market."
+      ]
+    },
+    {
+      "tag": "productCertification",
+      "patterns": [
+        "Can you explain what product certification is",
+        "what is product certification?",
+        "What is s Mark certification"
+      ],
+      "responses": [
+        "Product Certification is a process that ensures a product meets the required standards and regulations for quality, safety, and performance. At STQC, we offer comprehensive Product Certification services across various domains. One of our key certifications is the S mark, which signifies that a product has been rigorously tested and meets the standards set by STQC.\n\nOur Product Certification schemes include:\n\nCommon Criteria Certification: This ensures IT products and systems meet specific security standards.\n\nSmart Card Testing and Certification: This verifies the quality and security of smart card technology.\n\nBiometric Devices Testing and Certification: This ensures the reliability and accuracy of biometric devices.\n\nPOS/Mobile Terminal/Micro ATM Biometric Devices Certification: This certification focuses on the security and functionality of payment devices and terminals.\n\nSoftware and System Certification: This ensures software and systems are reliable and perform as expected.\n\nBy obtaining an STQC Product Certification, you demonstrate that your product adheres to national and international standards, providing confidence to consumers and stakeholders.",
+        "Product Certification is the process of verifying that a product meets specific standards and requirements for quality, safety, and performance. STQC offers a range of Product Certification services to help businesses ensure their products are compliant with these standards. The S mark is one of the certifications we provide, indicating that a product has passed stringent testing and evaluation.\n\nOur Product Certification schemes include:\n\nCommon Criteria Certification: This certifies the security and integrity of IT products.\n\nSmart Card Testing and Certification: This ensures the performance and security of smart card technologies.\n\nBiometric Devices Testing and Certification: This certification assesses the accuracy and reliability of biometric devices.\n\nPOS/Mobile Terminal/Micro ATM Biometric Devices Certification: This ensures the security and functionality of various payment terminals.\n\nSoftware and System Certification: This certifies that software and systems meet required standards for performance and reliability.\n\nChoosing STQC for Product Certification means you are committed to maintaining high standards and providing assurance to your customers that your products are trustworthy and meet the necessary regulatory requirements.",
+        "Product Certification involves assessing and verifying that a product complies with specific standards for quality, safety, and performance. At STQC, we offer a range of Product Certification services designed to help businesses validate their products against these standards. The S mark is a notable certification that signifies a product has undergone thorough testing and meets STQC's high standards.\n\nOur Product Certification services include:\n\nCommon Criteria Certification: Ensures IT products are secure and meet stringent security standards.\n\nSmart Card Testing and Certification: Verifies the security and functionality of smart card products.\n\nBiometric Devices Testing and Certification: Assesses the accuracy and reliability of biometric devices.\n\nPOS/Mobile Terminal/Micro ATM Biometric Devices Certification: Focuses on the security and performance of payment terminals.\n\nSoftware and System Certification: Ensures that software and systems are reliable and perform as intended.\n\nBy obtaining an STQC Product Certification, your product gains credibility and demonstrates compliance with national and international standards, instilling confidence in your customers and stakeholders."
+      ]
+    },
+    {
+      "tag": "managementSystemCertificationProcess",
+      "patterns": [
+        "certification process for management system",
+        "what is the procedure for qms certification",
+        "how can i get management system certification",
+        "what is the procedure for isms certification",
+        "how can i get iso 9001 certification",
+        "how can i get iso 27001 certification",
+        "how can i get my website certified from stqc",
+        "how to get my website certified by stqc"
+      ],
+      "responses": [
+        "To obtain Management System Certification at STQC, you can follow these structured processes for both ISO 9001 (QMS) and ISO 27001 (ISMS):\n\nISO 9001 (QMS) Certification Process:\n\nPre-certification Requirements: Ensure your organization has a documented quality system compliant with ISO 9001 and applicable product standards.\n\nApplication: Submit a completed application form, along with the necessary fee, quality system documentation, and certification agreement to STQC.\n\nEvaluation of Documentation: STQC reviews your documentation against ISO 9001 requirements, identifying any deficiencies to be corrected before the assessment.\n\nStage I - Assessment Visit: STQC conducts an initial assessment at your premises to gather information about your processes and readiness for Stage II.\n\nStage II - Assessment Visit: A detailed on-site assessment verifies compliance with ISO 9001 and the effectiveness of your quality system. Non-conformances, if any, are reported for corrective action.\n\nCorrective Action: Implement corrective actions for any non-conformances and submit evidence to STQC.\n\nCertification: Upon acceptance of corrective actions, STQC issues a certificate valid for three years, subject to satisfactory surveillance assessments.\n\nSurveillance and Renewal: Two surveillance assessments are conducted annually. \n\nRenew your certificate by re-assessing your quality system before it expires.\n\nISO 27001 (ISMS) Certification Process:\n\nApplication Submission: Submit the application form with necessary documents like your security policy, Statement of Applicability (SoA), and ISMS scope.\n\nPreliminary Information: Provide preliminary information for STQC to prepare a quotation.\n\nAssessment Process: An initial audit evaluates the readiness of your ISMS, followed by a certification audit to ensure ISO 27001 compliance.\n\nCertification Decision: Based on audit results, STQC decides on the issuance of the ISO 27001 certificate.\n\nSurveillance Audits: Regular audits are conducted post-certification to ensure ongoing compliance.\n\nSTQC’s certifications are recognized nationally and internationally, enhancing your corporate image and security posture.",
+        "STQC offers a detailed process for Management System Certification, covering both ISO 9001 (QMS) and ISO 27001 (ISMS):\n\nISO 9001 (QMS) Certification Process:\n\nPre-certification Requirements: Ensure your organization has a documented quality system compliant with ISO 9001 and applicable product standards.\n\nApplication: Submit a completed application form, along with the necessary fee, quality system documentation, and certification agreement to STQC.\n\nEvaluation of Documentation: STQC reviews your documentation against ISO 9001 requirements, identifying any deficiencies to be corrected before the assessment.\n\nStage I - Assessment Visit: STQC conducts an initial assessment at your premises to gather information about your processes and readiness for Stage II.\n\nStage II - Assessment Visit: A detailed on-site assessment verifies compliance with ISO 9001 and the effectiveness of your quality system. Non-conformances, if any, are reported for corrective action.\n\nCorrective Action: Implement corrective actions for any non-conformances and submit evidence to STQC.\n\nCertification: Upon acceptance of corrective actions, STQC issues a certificate valid for three years, subject to satisfactory surveillance assessments.\n\nSurveillance and Renewal: Two surveillance assessments are conducted annually. \n\nRenew your certificate by re-assessing your quality system before it expires.\n\nISO 27001 (ISMS) Certification Process:\n\nApplication Submission: Submit the application form with necessary documents like your security policy, Statement of Applicability (SoA), and ISMS scope.\n\nPreliminary Information: Provide preliminary information for STQC to prepare a quotation.\n\nAssessment Process: An initial audit evaluates the readiness of your ISMS, followed by a certification audit to ensure ISO 27001 compliance.\n\nCertification Decision: Based on audit results, STQC decides on the issuance of the ISO 27001 certificate.\n\nSurveillance Audits: Regular audits are conducted post-certification to ensure ongoing compliance.\n\nSTQC’s certifications are recognized nationally and internationally, enhancing your corporate image and security posture.",
+        "STQC provides Management System Certification through structured processes for both ISO 9001 (QMS) and ISO 27001 (ISMS):\n\nISO 9001 (QMS) Certification Process:\n\nPre-certification Requirements: Ensure your organization has a documented quality system compliant with ISO 9001 and applicable product standards.\n\nApplication: Submit a completed application form, along with the necessary fee, quality system documentation, and certification agreement to STQC.\n\nEvaluation of Documentation: STQC reviews your documentation against ISO 9001 requirements, identifying any deficiencies to be corrected before the assessment.\n\nStage I - Assessment Visit: STQC conducts an initial assessment at your premises to gather information about your processes and readiness for Stage II.\n\nStage II - Assessment Visit: A detailed on-site assessment verifies compliance with ISO 9001 and the effectiveness of your quality system. Non-conformances, if any, are reported for corrective action.\n\nCorrective Action: Implement corrective actions for any non-conformances and submit evidence to STQC.\n\nCertification: Upon acceptance of corrective actions, STQC issues a certificate valid for three years, subject to satisfactory surveillance assessments.\n\nSurveillance and Renewal: Two surveillance assessments are conducted annually. \n\nRenew your certificate by re-assessing your quality system before it expires.\n\nISO 27001 (ISMS) Certification Process:\n\nApplication Submission: Submit the application form with necessary documents like your security policy, Statement of Applicability (SoA), and ISMS scope.\n\nPreliminary Information: Provide preliminary information for STQC to prepare a quotation.\n\nAssessment Process: An initial audit evaluates the readiness of your ISMS, followed by a certification audit to ensure ISO 27001 compliance.\n\nCertification Decision: Based on audit results, STQC decides on the issuance of the ISO 27001 certificate.\n\nSurveillance Audits: Regular audits are conducted post-certification to ensure ongoing compliance.\n\nSTQC’s certifications are recognized nationally and internationally, enhancing your corporate image and security posture."
+      ]
+    },
+    {
+      "tag": "productCertificationProcess",
+      "patterns": [
+        "what is the process of getting product certification?",
+        "product certification procedure at stqc.",
+        "give me procedure to get s mark from stqc for my product.",
+        "how can I get s mark certification?",
+        "what is the procedure for product certification at stqc?",
+        "how can I get my product certified from stqc?",
+        "how can I get my smart card certified from sstqc?"
+      ],
+      "responses": [
+        "To obtain S Mark or product certification from STQC, you need to follow these steps:\n\nPre-certification Requirements:\nEstablish a documented quality system compliant with ISO 9001 and applicable product standards.\n\nApplication:\nSubmit a completed application form, product details/brochure, quality system documentation, certification agreement, factory questionnaire, and applicable fee to STQC.\n\nEvaluation of Documentation:\nSTQC reviews your submitted documentation and prepares a report. Any deficiencies must be corrected before proceeding.\n\nFactory Inspection and Sample Sealing:\nSTQC conducts a detailed on-site assessment at your location to ensure compliance. During the assessment, test samples are sealed and submitted to a designated test laboratory.\n\nTest Report:\nThe sealed samples are tested, and the test report is sent directly to STQC. If there are any failures, the report is shared with you.\n\nCorrective Action:\nAddress any non-conformances from the factory inspection and test report. Submit evidence of corrective actions to the assessment team leader for review.\n\nCertification:\nSTQC issues a certificate of approval/registration valid for three years, subject to satisfactory surveillance findings.\n\nSurveillance:\nTwo surveillance assessments are conducted annually. STQC may also order unplanned surveillances in case of complaints. Failure to comply can lead to suspension or withdrawal of the certificate.\n\nRenewal:\nRe-assessment of the quality system and retesting of samples are done for certificate renewal before it expires.\n\nSTQC is a member of the IECEE CB Scheme and issues safety certificates based on the review of CB Test Certificate and Report.",
+        "To obtain S Mark or product certification from STQC, follow these steps:\n\nPre-certification:\nEnsure your organization has a documented quality system in line with ISO 9001 and product standards.\n\nApplication:\nFill out the application form and submit it along with product details, quality system documentation, certification agreement, factory questionnaire, and applicable fee.\n\nDocumentation Review:\nSTQC reviews your documents, highlighting any issues to be resolved. They provide a Standard Operation Procedure (SOP) to the manufacturer.\n\nFactory Inspection and Sample Sealing:\nAn on-site assessment ensures compliance, and test samples are sealed for testing in a designated lab.\n\nTest Report:\nSealed samples are tested, and the results are sent to STQC. Any test failures are reported to you.\n\nCorrective Actions:\nCorrect any non-conformances and submit evidence to STQC.\n\nCertification:\nUpon satisfactory completion, STQC issues a certificate valid for three years, subject to annual surveillance assessments.\n\nSurveillance:\nTwo annual surveillance assessments ensure ongoing compliance. Unplanned surveillances may occur in case of complaints.\n\nRenewal:\nQuality system re-assessment and sample retesting are done for certificate renewal before expiry.",
+        "Here’s the procedure to get S Mark or product certification from STQC:\n\nPre-certification Requirements:\nHave a quality system compliant with ISO 9001 and applicable product standards.\n\nApplication Submission:\nSubmit the application with product details, quality system documentation, certification agreement, factory questionnaire, and applicable fee.\n\nDocumentation Evaluation:\nSTQC reviews your documents and identifies any deficiencies for correction. They also provide an SOP for the assessment.\n\nFactory Inspection and Sample Sealing:\nSTQC conducts an on-site assessment to ensure compliance, seals test samples, and submits them to a designated test laboratory.\n\nTest Report:\nTest results are sent to STQC. Any failures are communicated to you.\n\nCorrective Actions:\nImplement corrective actions for any non-conformances and submit evidence to STQC.\n\nCertification:\nOnce all requirements are met, STQC issues a certificate valid for three years, with annual surveillance assessments.\n\nSurveillance:\nTwo annual surveillance assessments ensure compliance, with additional assessments in case of complaints.\n\nRenewal:\nRe-assess quality system and retest samples before certificate expiry for renewal.\n\nSTQC is part of the IECEE CB Scheme and also offers certification based on CB Test Certificate and Report."
+      ]
+    }
+  ]
+}
